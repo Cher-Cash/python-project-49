@@ -12,3 +12,6 @@ install:
 
 brain-games:
 	poetry run brain-games
+
+update:
+	pip install --user --force-reinstall dist/hexlet_code*.whl
