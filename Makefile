@@ -15,3 +15,6 @@ brain-games:
 
 update:
 	pip install --user --force-reinstall dist/hexlet_code*.whl
+
+lint:
+	poetry run flake8 brain_games
