@@ -15,7 +15,7 @@ def main():
     name = welcome_user()
     count = 3
     print('Answer "yes" if the number is even, otherwise answer "no".')
-    while count != 0:
+    for i in range(0, 3):
         task = gen()
         print('Question:', task)
         answer = prompt.string('Your answer: ')
@@ -24,10 +24,9 @@ def main():
         else:
             check = 'yes'
         if check == answer:
-            count -= 1
             print('Correct!')
         else:
             print(f"'{answer}' wrong answer ;(. Correct answer was '{check}'")
             print("Let's try again,", name)
-            break
-    print('Congratulations, {}!'.format(name))
+            return 0
+    print(f'Congratulations, {name}!')

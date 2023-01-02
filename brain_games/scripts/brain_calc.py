@@ -36,4 +36,5 @@ def main():
         else:
             print(f"'{ans}' is wrong answer ;(. Correct answer was '{check}'")
             print("Let's try again,", name)
-            break
+            return 0
+    print(f'Congratulations, {name}')
