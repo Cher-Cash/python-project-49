@@ -18,3 +18,6 @@ update:
 
 lint:
 	poetry run flake8 brain_games
+
+delete:
+	python3 -m pip uninstall hexlet-code

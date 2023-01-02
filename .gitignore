@@ -1,3 +1,6 @@
 .venv
 __pycache__
 dist
+.idea
+example_brain-calc
+example_brain-even
