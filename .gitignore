@@ -4,3 +4,4 @@ dist
 .idea
 example_brain-calc
 example_brain-even
+example_brain-gcd
