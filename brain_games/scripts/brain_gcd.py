@@ -34,6 +34,6 @@ def main():
             print('Correct!')
         else:
             print(f"'{ans}' is wrong answer ;(. Correct answer was '{check}'")
-            print(f"Let's try again, {name}")
+            print(f"Let's try again, {name}!")
             return 0
-    print(f'Congratulations, {name}')
+    print(f'Congratulations, {name}!')
