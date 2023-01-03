@@ -24,7 +24,7 @@ def main():
     greet()
     name = welcome_user()
     print('Find the greatest common divisor of given numbers.')
-    for i in range(0,3):
+    for i in range(0, 3):
         f_number = gen()
         s_number = gen()
         print(f'Question: {f_number} {s_number}')

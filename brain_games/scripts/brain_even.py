@@ -13,7 +13,6 @@ def gen():
 def main():
     greet()
     name = welcome_user()
-    count = 3
     print('Answer "yes" if the number is even, otherwise answer "no".')
     for i in range(0, 3):
         task = gen()

@@ -16,7 +16,7 @@ def make(f_number):
     for i in range(0, 7):
         array.append(str(f_number))
         f_number += prog
-    number =random.choice(array)
+    number = random.choice(array)
     ind = array.index(number)
     final_array = array[:ind]
     final_array.append('..')
