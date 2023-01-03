@@ -4,3 +4,4 @@
 Example brain-even https://asciinema.org/a/549023
 Example brain-calc https://asciinema.org/a/549024
 Example brain-gcd https://asciinema.org/a/549046
+Example brain-progression https://asciinema.org/a/549206
